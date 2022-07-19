@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alata', sans-serif;
+
+}
+.orange{
+    background-image: linear-gradient(rgb(252, 247, 238), rgb(252, 224, 172));
+    border: solid orange;
+}
+header.orange{
+    width: 500px;
+    height: 40px;
+    margin: auto;
+    padding-top: 25px;
+    text-align: center;
+}
+nav.orange{
+    width: 200px;
+    height: 303px;
+    margin-left: 31.5%;
+    margin-top: 15px;
+    padding-top: 25px;
+    position: absolute;
+    text-align: center;    
+}
+article.orange{
+    width: 250px;
+    height: 60px;
+    margin-left: 49.7%;
+    margin-top: 15px;
+    padding-top: 35px;
+    text-align: center;
+}
+footer{
+    width: 500px;
+    height: 40px;
+    margin: auto;
+    margin-top: 15px;
+    padding-top: 25px;
+    text-align: center;
+    background-image: linear-gradient(rgb(191, 247, 238), rgb(191, 252, 172));
+    border: solid green;
+}
