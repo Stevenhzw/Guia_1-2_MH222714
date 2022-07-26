@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/clausulas.css"/>
+    <title>Clausulas</title>
+</head>
+<body>
+    <h1>Clausulas en JavaScript</h1>
+    <p>Una clausura o closure es una función que guarda referencias del estado adyacente
+         (ámbito léxico). En otras palabras, una clausura permite acceder al ámbito de una
+          función exterior desde una función interior. En JavaScript, las clausuras se crean
+           cada vez que una función es definida, no cuando es ejecutada. Pueden ser de utilidad
+        para cuando querramos tener una variable privada a la cual no se pueda acceder a menos que
+    sea por la funcion exterior</p><br>
+   <div class="ejercicio1">
+    <p>const a  = "Prueba";</p>
+    <p>function global(){</p>
+    <p>const b = " de ";</p>
+    <p>function local(){</p>
+    <p>const c = "clausulas";</p>
+    <p>return a + b + c;</p>
+    <p>}</p>
+    <p>return local;</p>
+    <p>}</p>
+    <P>const clausula1 = global();</P>
+    <P>clausula1();</P><BR>
+   </div>
+
+   <div class="ejercicio2">
+    <p>const nom1  = "Jorge";</p>
+    <p>function global2(){</p>
+    <p>const nom2 = " Steven ";</p>
+    <p>function local2(){</p>
+    <p>const nom3 = "Moreno";</p>
+    <p>return nom1 + nom2 + nom3;</p>
+    <p>}</p>
+    <p>return local2;</p>
+    <p>}</p>
+    <P>const clausula2 = global2();();</P>
+    <P>clausula2();</P><BR>
+   </div>
+    
+        
+
+    <script src="js/clausulas.js"></script>  
+ <a href="../menu3.html">Volver</a>
+
+</body>
+</html>

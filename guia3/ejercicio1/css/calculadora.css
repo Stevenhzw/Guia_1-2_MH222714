@@ -1,0 +1,29 @@
+.container{
+    background-color:darkgray;
+    width: 200px;
+    margin: 0% auto;
+    padding: 4px 10px;
+    border: solid grey 5px;
+}
+
+.result{
+   background-color: white;
+   width: 200px;
+   height: 20px;
+   border: solid black 1px;
+}
+h3{
+    background-color: navy;
+    margin: 2px 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signo{
+    color: red;
+}
+button{
+    color: blue;
+    width: 35px;
+    border: solid black 1px;
+}
